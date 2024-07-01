@@ -4,8 +4,8 @@ import Event from './Event';
 import { createClient } from '@supabase/supabase-js';
 
 const EventList = () => {
-  const supabaseURL = 'https://rbmwyvyisezjkkkbqsgo.supabase.co';
-  const supabaseKEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJibXd5dnlpc2V6amtra2Jxc2dvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MDIwNTcxNzgsImV4cCI6MjAxNzYzMzE3OH0.oRsTgyQrojMSrt8NeZe-hNIR0_YOnwGDWEj58fObRFs';
+  const supabaseURL = '';
+  const supabaseKEY = '';
   const supabase = createClient(supabaseURL, supabaseKEY);
   const [events, setEvents] = useState([]);
   const [isPopupOpen, setPopupOpen] = useState(false);
